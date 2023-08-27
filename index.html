@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your SaaS Landing Page</title>
+    
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Our E-Commerce Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to Our E-Commerce Store</h1>
+            <p>Discover the latest trends and shop with confidence</p>
+            <a href="#" class="btn btn-light btn-lg">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><i class="fas fa-tag"></i> Trendy Collections</h3>
+                    <p>Explore our curated collections featuring the latest fashion trends.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><i class="fas fa-shipping-fast"></i> Fast Shipping</h3>
+                    <p>Enjoy speedy delivery to your doorstep for a seamless shopping experience.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><i class="fas fa-lock"></i> Secure Checkout</h3>
+                    <p>Shop with confidence knowing your payment information is safe and protected.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Form Section -->
+    <section class="subscription-form bg-light py-5">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest arrivals, offers, and promotions.</p>
+            <form id="subscription-form" class="mt-4">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+            <p id="subscription-status" class="mt-2"></p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Our E-Commerce Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to Bootstrap JS and your custom JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module" src="app.js"></script>
+
+</body>
+</html>
